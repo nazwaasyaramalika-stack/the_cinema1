@@ -1,72 +1,57 @@
-🎬 Sudut Layar (The Cinema Edu)
-Sudut Layar adalah platform edukasi berbasis film yang dikembangkan untuk menyajikan trailer, sinopsis, dan nilai-nilai pembelajaran dalam satu ruang digital yang terkurasi. Proyek ini merupakan wadah bagi karya-karya kreatif siswa, khususnya dari program P5 SMKN 1 Cikarang Selatan.
+# 🎬 Sudut Layar (The Cinema Edu)
 
-✨ Fitur Utama
-Katalog Trailer Film: Menampilkan karya sinematik siswa dengan integrasi pemutar video (Google Drive & YouTube).
+**Sudut Layar** adalah platform portofolio digital yang dikurasi untuk menampilkan karya-karya sinematik, trailer film, dan dokumentasi kreatif. Proyek ini dibangun dengan fokus pada estetika minimalis, tipografi klasik, dan pengalaman pengguna yang halus.
 
-Modul Edukasi: Setiap film dilengkapi dengan detail teknis seperti pembuatan properti, penempatan sound effect, serta pesan moral yang terkandung di dalamnya.
+## ✨ Fitur Unggulan
 
-UI/UX Modern & Estetik: Menggunakan tipografi Cormorant Garamond dan Bebas Neue untuk memberikan kesan premium dan artistik.
+- **Desain Tipografi Premium:** Menggunakan perpaduan font *Cormorant Garamond* yang elegan dan *Bebas Neue* yang berani.
+- **Efek Visual Interaktif:**
+  - *Custom Cursor* (Kursor kustom dengan ring pelacak).
+  - *Reveal Animation* (Konten muncul secara halus saat di-scroll).
+  - *Glassmorphism UI* pada elemen modal dan navigasi.
+- **Sistem Navigasi Halus:** Implementasi *Smooth Scroll* untuk perpindahan antar bagian halaman.
+- **Fitur Interaksi:** - *Video Player Modal* untuk menonton trailer langsung di situs.
+  - *Login Portal* (Simulasi) dengan validasi form dan efek animasi *shake*.
+- **Katalog Film Responsif:** Penempatan poster dan deskripsi film yang rapi menggunakan CSS Grid dan Flexbox
 
-Interactive Elements:
+## 🛠️ Teknologi yang Digunakan
 
-Custom Cursor dan Cursor Ring.
+Proyek ini dibangun murni menggunakan teknologi web standar (Vanilla Stack) untuk performa yang ringan:
 
-Smooth Scroll dan Intersection Observer untuk efek animasi saat scroll.
+- **HTML5:** Struktur semantik untuk aksesibilitas yang baik.
+- **CSS3:** - *Custom Properties* (Variabel warna untuk konsistensi desain).
+  - *Intersection Observer* untuk memicu animasi saat scroll.
+  - Efek blur dan filter latar belakang.
+- **JavaScript (ES6):**
+  - Manajemen state untuk modal (Buka/Tutup).
+  - Logika kursor interaktif.
+  - Penanganan event form login.
 
-Modal Login untuk simulasi portal klien.
+## 🚀 Cara Menjalankan Proyek
 
-Marquee Animation untuk daftar judul film.
+1. **Clone Repositori:**
+   ```bash
+   git clone [https://github.com/USERNAME_ANDA/NAMA_REPOSI_ANDA.git](https://github.com/USERNAME_ANDA/NAMA_REPOSI_ANDA.git)
 
-🛠️ Teknologi yang Digunakan
-HTML5: Struktur semantik untuk konten web.
+📂 Struktur File
+index.html - Struktur utama dan konten halaman.
+style (Internal) - Pengaturan palet warna (Ink, Paper, Copper) dan layout.
+script (Internal) - Logika animasi dan interaksi pengguna.
 
-CSS3 (Custom Properties): - Sistem pewarnaan dinamis (Ink, Paper, Copper, Rust).
+🎞️ Daftar Film yang Ditampilkan
+Beberapa judul yang ada dalam portofolio ini antara lain:
+* Si Guntur
+* Titik Balik
+* Selisih
+* Jemput Bahagia
+* Dear Nathan
+* FRI3ND
 
-Flexbox dan CSS Grid untuk tata letak responsif.
+📝 Catatan :
+Proyek ini dikembangkan sebagai bagian dari tugas kreatif/edukasi untuk menampilkan potensi sinematik melalui media web. 
 
-Animasi Keyframes dan Backdrop-filter.
-
-JavaScript (Vanilla):
-
-Logika modal video dan login.
-
-Pelacakan posisi kursor kustom.
-
-Intersection Observer API untuk scroll reveal.
-
-🎥 Daftar Karya (2024–2025)
-Beberapa proyek unggulan yang ditampilkan meliputi:
-
-Si Guntur (Karya 12 TJKT B)
-
-Titik Balik (Karya 12 TP C)
-
-Selisih (Karya 12 TC B)
-
-Jemput Bahagia (Karya Anak Bangsa)
-
-Dear Nathan (Karya Rapi Film)
-
-FRI3ND (Karya Anak Bangsa)
-
-🚀 Cara Menjalankan Secara Lokal
-Clone repositori ini:
-
-Bash
-git clone https://github.com/username-anda/sudut-layar.git
-Masuk ke direktori proyek:
-
-Bash
-cd sudut-layar
-Buka file index.html:
-Cukup klik dua kali pada file index.html di file explorer Anda atau gunakan ekstensi Live Server di VS Code.
-
-📧 Kontak & Kolaborasi
+ 📧 Kontak & Kolaborasi
 Kami selalu terbuka untuk diskusi dan kolaborasi yang bermakna.
-
 Email: sudutlayar@smkn1cisel.sch.id
-
 Lokasi: SMKN 1 Cikarang Selatan, Bekasi, Indonesia.
-
 © 2025 Sudut Layar. Dibuat dengan penuh niat sebagai media belajar yang bermakna.
