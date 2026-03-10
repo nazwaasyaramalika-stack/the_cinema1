@@ -52,6 +52,7 @@ Proyek ini dikembangkan sebagai bagian dari tugas kreatif/edukasi untuk menampil
 
  📧 Kontak & Kolaborasi
 Kami selalu terbuka untuk diskusi dan kolaborasi yang bermakna.
+
 Email: sudutlayar@smkn1cisel.sch.id
 
 Lokasi: SMKN 1 Cikarang Selatan, Bekasi, Indonesia.
